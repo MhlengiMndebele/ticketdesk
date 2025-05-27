@@ -63,6 +63,10 @@ namespace TicketDesk.Domain.Model
         public string Title { get; set; }
 
         [Required(ErrorMessageResourceName = "FieldRequired", ErrorMessageResourceType = typeof(Validation))]
+        [Display(ResourceType = typeof(Strings), Name = "TicketDepartment", ShortName = "TicketDepartmentShort")]
+        public string Department { get; set; }
+
+        [Required(ErrorMessageResourceName = "FieldRequired", ErrorMessageResourceType = typeof(Validation))]
         [Display(ResourceType = typeof(Strings), Name = "TicketDetails", ShortName = "TicketDetailsShort")]
         public string Details { get; set; }
 

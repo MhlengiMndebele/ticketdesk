@@ -449,4 +449,7 @@
   <data name="DefaultLogonDomain" xml:space="preserve">
     <value>Default Logon Domain</value>
   </data>
+  <data name="TicketDepartment" xml:space="preserve">
+    <value>Department</value>
+  </data>
 </root>
